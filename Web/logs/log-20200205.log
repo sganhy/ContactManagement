@@ -1,0 +1,7 @@
+2020-02-05 17:26:42.090 +01:00 [Information] HTTP "GET" "/_hc" responded 200 in 7895.9256 ms
+2020-02-05 17:49:10.029 +01:00 [Information] HTTP "GET" "/_hc" responded 404 in 115.3186 ms
+2020-02-05 17:52:35.882 +01:00 [Information] HTTP "GET" "/_hc" responded 404 in 268.9342 ms
+2020-02-05 17:52:39.687 +01:00 [Information] HTTP "GET" "/_hc" responded 404 in 54.9260 ms
+2020-02-05 17:52:40.713 +01:00 [Information] HTTP "GET" "/_hc" responded 404 in 1.2690 ms
+2020-02-05 17:56:43.887 +01:00 [Information] HTTP "GET" "/favicon.ico" responded 404 in 10.2200 ms
+2020-02-05 17:59:48.559 +01:00 [Information] HTTP "GET" "/_hc" responded 404 in 0.4939 ms

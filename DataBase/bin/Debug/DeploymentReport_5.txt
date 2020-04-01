@@ -1,0 +1,25 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[Address] (Table)
+       [dbo].[AddressRole] (Table)
+       [dbo].[Company] (Table)
+       [dbo].[Contact] (Table)
+       [dbo].[ContactRole] (Table)
+       [dbo].[FK_AddressRole_Address] (Foreign Key)
+       [dbo].[FK_AddressRole_Company] (Foreign Key)
+       [dbo].[FK_Company_Address] (Foreign Key)
+       [dbo].[FK_Contact_Address] (Foreign Key)
+       [dbo].[FK_ContactRole_Company] (Foreign Key)
+       [dbo].[FK_ContactRole_Contact] (Foreign Key)
+
+** Supporting actions

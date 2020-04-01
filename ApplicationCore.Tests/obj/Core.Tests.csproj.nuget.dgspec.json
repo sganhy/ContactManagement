@@ -1,0 +1,84 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Coding\\a1811-dems\\a1811-dems\\api\\ApplicationCore.Tests\\Core.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Coding\\a1811-dems\\a1811-dems\\api\\ApplicationCore.Tests\\Core.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Coding\\a1811-dems\\a1811-dems\\api\\ApplicationCore.Tests\\Core.Tests.csproj",
+        "projectName": "Dems.Core.Domain.Tests",
+        "projectPath": "C:\\Coding\\a1811-dems\\a1811-dems\\api\\ApplicationCore.Tests\\Core.Tests.csproj",
+        "packagesPath": "C:\\Users\\exn238\\.nuget\\packages\\",
+        "outputPath": "C:\\Coding\\a1811-dems\\a1811-dems\\api\\ApplicationCore.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\exn238\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Coding\\a1811-dems\\a1811-dems\\api\\Core.Domain\\Core.Domain.csproj": {
+                "projectPath": "C:\\Coding\\a1811-dems\\a1811-dems\\api\\Core.Domain\\Core.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "AutoFixture.Xunit2": {
+              "target": "Package",
+              "version": "[4.8.0, )"
+            },
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[5.6.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.10.1, )"
+            },
+            "Moq.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

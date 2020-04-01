@@ -1,0 +1,468 @@
+2020-03-06 11:03:39.629 +01:00 [Information] HTTP "PUT" "/IpatSync" responded 200 in 76292.3315 ms
+2020-03-06 11:24:33.552 +01:00 [Information] HTTP "PUT" "/IpatSync" responded 200 in 25099.0133 ms
+2020-03-06 11:59:03.765 +01:00 [Information] HTTP "PUT" "/IpatSync" responded 500 in 569.8597 ms
+DryIoc.ContainerException: Unable to resolve Microsoft.Extensions.Logging.ILogger as parameter "logger"
+  in scoped IpatIotListener.Infrastructure.Data.MqTTStageRepository: IpatIotListener.ApplicationCore.Repositories.IMqTTStageRepository as parameter "mqTTStageRepository" FactoryId=62
+  in scoped IpatIotListener.Infrastructure.Services.MqTTStageService: IpatIotListener.ApplicationCore.Services.IMqTTStageService {DryIoc.IfUnresolved.ReturnDefaultIfNotRegistered} FactoryId=63 IsResolutionCall
+  from Container with Scope {no name}
+ with Rules with {TrackingDisposableTransients, SelectLastRegisteredFactory} and without {ThrowOnRegisteringDisposableTransient}
+ with FactorySelector=SelectLastRegisteredFactory
+ with Made={FactoryMethod=ConstructorWithResolvableArguments}
+Where no service registrations found
+  and no dynamic registrations found in 0 of Rules.DynamicServiceProviders
+  and nothing found in 0 of Rules.UnknownServiceResolvers
+   at DryIoc.Throw.It(Int32 error, Object arg0, Object arg1, Object arg2, Object arg3) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 10684
+   at DryIoc.Container.TryThrowUnableToResolve(Request request) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 939
+   at DryIoc.Container.DryIoc.IContainer.ResolveFactory(Request request) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 918
+   at DryIoc.ReflectionFactory.TryResolveParameterExpressions(ParameterInfo[] parameters, Func`2 parameterServiceInfoSelector, Request request, Int32& usedInputArgAndCustomValueCount) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 8454
+   at DryIoc.ReflectionFactory.CreateExpressionOrDefault(Request request) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 8384
+   at DryIoc.Factory.GetExpressionOrDefault(Request request) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 7869
+   at DryIoc.ReflectionFactory.TryResolveParameterExpressions(ParameterInfo[] parameters, Func`2 parameterServiceInfoSelector, Request request, Int32& usedInputArgAndCustomValueCount) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 8456
+   at DryIoc.ReflectionFactory.CreateExpressionOrDefault(Request request) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 8384
+   at DryIoc.Factory.GetExpressionOrDefault(Request request) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 7869
+   at DryIoc.Container.ResolveAndCacheFactoryDelegate(Type serviceType, IfUnresolved ifUnresolved) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 269
+   at DryIoc.Container.DryIoc.IResolver.Resolve(Type serviceType, IfUnresolved ifUnresolved) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 230
+   at DryIoc.Container.System.IServiceProvider.GetService(Type serviceType) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 224
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ExceptionContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Infrabel.ICT.Framework.Extended.AspNetCore.Middleware.LoggingMiddleware.Invoke(HttpContext context, IEnvironmentInfoService environmentInfoService)
+2020-03-06 11:59:04.355 +01:00 [Error] An unhandled exception has occurred while executing the request.
+DryIoc.ContainerException: Unable to resolve Microsoft.Extensions.Logging.ILogger as parameter "logger"
+  in scoped IpatIotListener.Infrastructure.Data.MqTTStageRepository: IpatIotListener.ApplicationCore.Repositories.IMqTTStageRepository as parameter "mqTTStageRepository" FactoryId=62
+  in scoped IpatIotListener.Infrastructure.Services.MqTTStageService: IpatIotListener.ApplicationCore.Services.IMqTTStageService {DryIoc.IfUnresolved.ReturnDefaultIfNotRegistered} FactoryId=63 IsResolutionCall
+  from Container with Scope {no name}
+ with Rules with {TrackingDisposableTransients, SelectLastRegisteredFactory} and without {ThrowOnRegisteringDisposableTransient}
+ with FactorySelector=SelectLastRegisteredFactory
+ with Made={FactoryMethod=ConstructorWithResolvableArguments}
+Where no service registrations found
+  and no dynamic registrations found in 0 of Rules.DynamicServiceProviders
+  and nothing found in 0 of Rules.UnknownServiceResolvers
+   at DryIoc.Throw.It(Int32 error, Object arg0, Object arg1, Object arg2, Object arg3) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 10684
+   at DryIoc.Container.TryThrowUnableToResolve(Request request) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 939
+   at DryIoc.Container.DryIoc.IContainer.ResolveFactory(Request request) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 918
+   at DryIoc.ReflectionFactory.TryResolveParameterExpressions(ParameterInfo[] parameters, Func`2 parameterServiceInfoSelector, Request request, Int32& usedInputArgAndCustomValueCount) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 8454
+   at DryIoc.ReflectionFactory.CreateExpressionOrDefault(Request request) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 8384
+   at DryIoc.Factory.GetExpressionOrDefault(Request request) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 7869
+   at DryIoc.ReflectionFactory.TryResolveParameterExpressions(ParameterInfo[] parameters, Func`2 parameterServiceInfoSelector, Request request, Int32& usedInputArgAndCustomValueCount) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 8456
+   at DryIoc.ReflectionFactory.CreateExpressionOrDefault(Request request) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 8384
+   at DryIoc.Factory.GetExpressionOrDefault(Request request) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 7869
+   at DryIoc.Container.ResolveAndCacheFactoryDelegate(Type serviceType, IfUnresolved ifUnresolved) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 269
+   at DryIoc.Container.DryIoc.IResolver.Resolve(Type serviceType, IfUnresolved ifUnresolved) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 230
+   at DryIoc.Container.System.IServiceProvider.GetService(Type serviceType) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 224
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ExceptionContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Infrabel.ICT.Framework.Extended.AspNetCore.Middleware.LoggingMiddleware.Invoke(HttpContext context, IEnvironmentInfoService environmentInfoService)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-03-06 12:24:43.468 +01:00 [Information] HTTP "PUT" "/IpatSync" responded 500 in 685.9587 ms
+DryIoc.ContainerException: Unable to resolve Microsoft.Extensions.Logging.ILogger as parameter "logger"
+  in scoped IpatIotListener.Infrastructure.Data.MqTTStageRepository: IpatIotListener.ApplicationCore.Repositories.IMqTTStageRepository as parameter "mqTTStageRepository" FactoryId=62
+  in scoped IpatIotListener.Infrastructure.Services.MqTTStageService: IpatIotListener.ApplicationCore.Services.IMqTTStageService {DryIoc.IfUnresolved.ReturnDefaultIfNotRegistered} FactoryId=63 IsResolutionCall
+  from Container with Scope {no name}
+ with Rules with {TrackingDisposableTransients, SelectLastRegisteredFactory} and without {ThrowOnRegisteringDisposableTransient}
+ with FactorySelector=SelectLastRegisteredFactory
+ with Made={FactoryMethod=ConstructorWithResolvableArguments}
+Where no service registrations found
+  and no dynamic registrations found in 0 of Rules.DynamicServiceProviders
+  and nothing found in 0 of Rules.UnknownServiceResolvers
+   at DryIoc.Throw.It(Int32 error, Object arg0, Object arg1, Object arg2, Object arg3) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 10684
+   at DryIoc.Container.TryThrowUnableToResolve(Request request) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 939
+   at DryIoc.Container.DryIoc.IContainer.ResolveFactory(Request request) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 918
+   at DryIoc.ReflectionFactory.TryResolveParameterExpressions(ParameterInfo[] parameters, Func`2 parameterServiceInfoSelector, Request request, Int32& usedInputArgAndCustomValueCount) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 8454
+   at DryIoc.ReflectionFactory.CreateExpressionOrDefault(Request request) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 8384
+   at DryIoc.Factory.GetExpressionOrDefault(Request request) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 7869
+   at DryIoc.ReflectionFactory.TryResolveParameterExpressions(ParameterInfo[] parameters, Func`2 parameterServiceInfoSelector, Request request, Int32& usedInputArgAndCustomValueCount) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 8456
+   at DryIoc.ReflectionFactory.CreateExpressionOrDefault(Request request) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 8384
+   at DryIoc.Factory.GetExpressionOrDefault(Request request) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 7869
+   at DryIoc.Container.ResolveAndCacheFactoryDelegate(Type serviceType, IfUnresolved ifUnresolved) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 269
+   at DryIoc.Container.DryIoc.IResolver.Resolve(Type serviceType, IfUnresolved ifUnresolved) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 230
+   at DryIoc.Container.System.IServiceProvider.GetService(Type serviceType) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 224
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ExceptionContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Infrabel.ICT.Framework.Extended.AspNetCore.Middleware.LoggingMiddleware.Invoke(HttpContext context, IEnvironmentInfoService environmentInfoService)
+2020-03-06 12:24:43.964 +01:00 [Error] An unhandled exception has occurred while executing the request.
+DryIoc.ContainerException: Unable to resolve Microsoft.Extensions.Logging.ILogger as parameter "logger"
+  in scoped IpatIotListener.Infrastructure.Data.MqTTStageRepository: IpatIotListener.ApplicationCore.Repositories.IMqTTStageRepository as parameter "mqTTStageRepository" FactoryId=62
+  in scoped IpatIotListener.Infrastructure.Services.MqTTStageService: IpatIotListener.ApplicationCore.Services.IMqTTStageService {DryIoc.IfUnresolved.ReturnDefaultIfNotRegistered} FactoryId=63 IsResolutionCall
+  from Container with Scope {no name}
+ with Rules with {TrackingDisposableTransients, SelectLastRegisteredFactory} and without {ThrowOnRegisteringDisposableTransient}
+ with FactorySelector=SelectLastRegisteredFactory
+ with Made={FactoryMethod=ConstructorWithResolvableArguments}
+Where no service registrations found
+  and no dynamic registrations found in 0 of Rules.DynamicServiceProviders
+  and nothing found in 0 of Rules.UnknownServiceResolvers
+   at DryIoc.Throw.It(Int32 error, Object arg0, Object arg1, Object arg2, Object arg3) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 10684
+   at DryIoc.Container.TryThrowUnableToResolve(Request request) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 939
+   at DryIoc.Container.DryIoc.IContainer.ResolveFactory(Request request) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 918
+   at DryIoc.ReflectionFactory.TryResolveParameterExpressions(ParameterInfo[] parameters, Func`2 parameterServiceInfoSelector, Request request, Int32& usedInputArgAndCustomValueCount) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 8454
+   at DryIoc.ReflectionFactory.CreateExpressionOrDefault(Request request) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 8384
+   at DryIoc.Factory.GetExpressionOrDefault(Request request) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 7869
+   at DryIoc.ReflectionFactory.TryResolveParameterExpressions(ParameterInfo[] parameters, Func`2 parameterServiceInfoSelector, Request request, Int32& usedInputArgAndCustomValueCount) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 8456
+   at DryIoc.ReflectionFactory.CreateExpressionOrDefault(Request request) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 8384
+   at DryIoc.Factory.GetExpressionOrDefault(Request request) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 7869
+   at DryIoc.Container.ResolveAndCacheFactoryDelegate(Type serviceType, IfUnresolved ifUnresolved) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 269
+   at DryIoc.Container.DryIoc.IResolver.Resolve(Type serviceType, IfUnresolved ifUnresolved) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 230
+   at DryIoc.Container.System.IServiceProvider.GetService(Type serviceType) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 224
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ExceptionContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Infrabel.ICT.Framework.Extended.AspNetCore.Middleware.LoggingMiddleware.Invoke(HttpContext context, IEnvironmentInfoService environmentInfoService)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-03-06 12:25:09.150 +01:00 [Information] HTTP "PUT" "/IpatSync" responded 500 in 43.3449 ms
+DryIoc.ContainerException: Unable to resolve Microsoft.Extensions.Logging.ILogger as parameter "logger"
+  in scoped IpatIotListener.Infrastructure.Data.MqTTStageRepository: IpatIotListener.ApplicationCore.Repositories.IMqTTStageRepository as parameter "mqTTStageRepository" FactoryId=62
+  in scoped IpatIotListener.Infrastructure.Services.MqTTStageService: IpatIotListener.ApplicationCore.Services.IMqTTStageService {DryIoc.IfUnresolved.ReturnDefaultIfNotRegistered} FactoryId=63 IsResolutionCall
+  from Container with Scope {no name}
+ with Rules with {TrackingDisposableTransients, SelectLastRegisteredFactory} and without {ThrowOnRegisteringDisposableTransient}
+ with FactorySelector=SelectLastRegisteredFactory
+ with Made={FactoryMethod=ConstructorWithResolvableArguments}
+Where no service registrations found
+  and no dynamic registrations found in 0 of Rules.DynamicServiceProviders
+  and nothing found in 0 of Rules.UnknownServiceResolvers
+   at DryIoc.Throw.It(Int32 error, Object arg0, Object arg1, Object arg2, Object arg3) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 10684
+   at DryIoc.Container.TryThrowUnableToResolve(Request request) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 939
+   at DryIoc.Container.DryIoc.IContainer.ResolveFactory(Request request) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 918
+   at DryIoc.ReflectionFactory.TryResolveParameterExpressions(ParameterInfo[] parameters, Func`2 parameterServiceInfoSelector, Request request, Int32& usedInputArgAndCustomValueCount) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 8454
+   at DryIoc.ReflectionFactory.CreateExpressionOrDefault(Request request) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 8384
+   at DryIoc.Factory.GetExpressionOrDefault(Request request) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 7869
+   at DryIoc.ReflectionFactory.TryResolveParameterExpressions(ParameterInfo[] parameters, Func`2 parameterServiceInfoSelector, Request request, Int32& usedInputArgAndCustomValueCount) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 8456
+   at DryIoc.ReflectionFactory.CreateExpressionOrDefault(Request request) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 8384
+   at DryIoc.Factory.GetExpressionOrDefault(Request request) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 7869
+   at DryIoc.Container.ResolveAndCacheFactoryDelegate(Type serviceType, IfUnresolved ifUnresolved) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 269
+   at DryIoc.Container.DryIoc.IResolver.Resolve(Type serviceType, IfUnresolved ifUnresolved) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 230
+   at DryIoc.Container.System.IServiceProvider.GetService(Type serviceType) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 224
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ExceptionContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Infrabel.ICT.Framework.Extended.AspNetCore.Middleware.LoggingMiddleware.Invoke(HttpContext context, IEnvironmentInfoService environmentInfoService)
+2020-03-06 12:25:09.156 +01:00 [Error] An unhandled exception has occurred while executing the request.
+DryIoc.ContainerException: Unable to resolve Microsoft.Extensions.Logging.ILogger as parameter "logger"
+  in scoped IpatIotListener.Infrastructure.Data.MqTTStageRepository: IpatIotListener.ApplicationCore.Repositories.IMqTTStageRepository as parameter "mqTTStageRepository" FactoryId=62
+  in scoped IpatIotListener.Infrastructure.Services.MqTTStageService: IpatIotListener.ApplicationCore.Services.IMqTTStageService {DryIoc.IfUnresolved.ReturnDefaultIfNotRegistered} FactoryId=63 IsResolutionCall
+  from Container with Scope {no name}
+ with Rules with {TrackingDisposableTransients, SelectLastRegisteredFactory} and without {ThrowOnRegisteringDisposableTransient}
+ with FactorySelector=SelectLastRegisteredFactory
+ with Made={FactoryMethod=ConstructorWithResolvableArguments}
+Where no service registrations found
+  and no dynamic registrations found in 0 of Rules.DynamicServiceProviders
+  and nothing found in 0 of Rules.UnknownServiceResolvers
+   at DryIoc.Throw.It(Int32 error, Object arg0, Object arg1, Object arg2, Object arg3) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 10684
+   at DryIoc.Container.TryThrowUnableToResolve(Request request) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 939
+   at DryIoc.Container.DryIoc.IContainer.ResolveFactory(Request request) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 918
+   at DryIoc.ReflectionFactory.TryResolveParameterExpressions(ParameterInfo[] parameters, Func`2 parameterServiceInfoSelector, Request request, Int32& usedInputArgAndCustomValueCount) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 8454
+   at DryIoc.ReflectionFactory.CreateExpressionOrDefault(Request request) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 8384
+   at DryIoc.Factory.GetExpressionOrDefault(Request request) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 7869
+   at DryIoc.ReflectionFactory.TryResolveParameterExpressions(ParameterInfo[] parameters, Func`2 parameterServiceInfoSelector, Request request, Int32& usedInputArgAndCustomValueCount) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 8456
+   at DryIoc.ReflectionFactory.CreateExpressionOrDefault(Request request) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 8384
+   at DryIoc.Factory.GetExpressionOrDefault(Request request) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 7869
+   at DryIoc.Container.ResolveAndCacheFactoryDelegate(Type serviceType, IfUnresolved ifUnresolved) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 269
+   at DryIoc.Container.DryIoc.IResolver.Resolve(Type serviceType, IfUnresolved ifUnresolved) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 230
+   at DryIoc.Container.System.IServiceProvider.GetService(Type serviceType) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 224
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ExceptionContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Infrabel.ICT.Framework.Extended.AspNetCore.Middleware.LoggingMiddleware.Invoke(HttpContext context, IEnvironmentInfoService environmentInfoService)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-03-06 13:04:35.169 +01:00 [Information] HTTP "PUT" "/IpatSync" responded 200 in 57780.6606 ms
+2020-03-06 16:06:00.625 +01:00 [Information] HTTP "PUT" "/fines/20121" responded 404 in 79.6283 ms
+2020-03-06 16:06:06.373 +01:00 [Information] HTTP "PUT" "/fines/20121" responded 404 in 5.8579 ms
+2020-03-06 16:06:21.567 +01:00 [Information] HTTP "PUT" "/IpatSync" responded 500 in 4739.8362 ms
+System.InvalidOperationException: Unable to resolve service for type 'AutoMapper.Mapper' while attempting to activate 'IpatIotListener.Web.Api.IpatSyncController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ExceptionContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Infrabel.ICT.Framework.Extended.AspNetCore.Middleware.LoggingMiddleware.Invoke(HttpContext context, IEnvironmentInfoService environmentInfoService)
+2020-03-06 16:06:21.668 +01:00 [Error] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'AutoMapper.Mapper' while attempting to activate 'IpatIotListener.Web.Api.IpatSyncController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ExceptionContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Infrabel.ICT.Framework.Extended.AspNetCore.Middleware.LoggingMiddleware.Invoke(HttpContext context, IEnvironmentInfoService environmentInfoService)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-03-06 16:07:37.332 +01:00 [Information] HTTP "PUT" "/IpatSync" responded 500 in 21719.7007 ms
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-06550: line 13, column 14:
+PL/SQL: ORA-00942: table or view does not exist
+ORA-06550: line 13, column 1:
+PL/SQL: SQL Statement ignored
+   at OracleInternal.ServiceObjects.OracleConnectionImpl.VerifyExecution(Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, SqlStatementType sqlStatementType, Int32 arrayBindCount, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   at OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int64 clientInitialLOBFS, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Int64& internalInitialLOBFS, OracleException& exceptionForArrayBindDML, OracleConnection connection, OracleLogicalTransaction& oracleLogicalTransaction, IEnumerable`1 adrianParsedStmt, Boolean isDescribeOnly, Boolean isFromEF)
+   at Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at Oracle.EntityFrameworkCore.Storage.Internal.OracleRelationalCommandBuilderFactory.OracleRelationalCommandBuilder.OracleRelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(DbContext _, ValueTuple`2 parameters, CancellationToken cancellationToken)
+   at Oracle.EntityFrameworkCore.Storage.Internal.OracleExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IReadOnlyList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Infrabel.ICT.Framework.Extended.EntityFramework.DbContextBase.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Infrabel.ICT.Framework.Extended.EntityFramework.DbRepository`1.CommitAsync(CancellationToken cancellationToken)
+   at IpatIotListener.Infrastructure.Services.QueueLogService.CreateAsync(String guid, String message, CancellationToken cancellationToken) in C:\Coding\a453-admora\api\Infrastructure\Services\QueueLogService.cs:line 28
+   at IpatIotListener.Web.Api.IpatSyncController.SyncIpatDatabase(Int64 activityLogId) in C:\Coding\a453-admora\api\Web\Api\IpatSyncController.cs:line 35
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ExceptionContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Infrabel.ICT.Framework.Extended.AspNetCore.Middleware.LoggingMiddleware.Invoke(HttpContext context, IEnvironmentInfoService environmentInfoService)
+2020-03-06 16:07:37.515 +01:00 [Error] An unhandled exception has occurred while executing the request.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-06550: line 13, column 14:
+PL/SQL: ORA-00942: table or view does not exist
+ORA-06550: line 13, column 1:
+PL/SQL: SQL Statement ignored
+   at OracleInternal.ServiceObjects.OracleConnectionImpl.VerifyExecution(Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, SqlStatementType sqlStatementType, Int32 arrayBindCount, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   at OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int64 clientInitialLOBFS, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Int64& internalInitialLOBFS, OracleException& exceptionForArrayBindDML, OracleConnection connection, OracleLogicalTransaction& oracleLogicalTransaction, IEnumerable`1 adrianParsedStmt, Boolean isDescribeOnly, Boolean isFromEF)
+   at Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at Oracle.EntityFrameworkCore.Storage.Internal.OracleRelationalCommandBuilderFactory.OracleRelationalCommandBuilder.OracleRelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(DbContext _, ValueTuple`2 parameters, CancellationToken cancellationToken)
+   at Oracle.EntityFrameworkCore.Storage.Internal.OracleExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IReadOnlyList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Infrabel.ICT.Framework.Extended.EntityFramework.DbContextBase.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Infrabel.ICT.Framework.Extended.EntityFramework.DbRepository`1.CommitAsync(CancellationToken cancellationToken)
+   at IpatIotListener.Infrastructure.Services.QueueLogService.CreateAsync(String guid, String message, CancellationToken cancellationToken) in C:\Coding\a453-admora\api\Infrastructure\Services\QueueLogService.cs:line 28
+   at IpatIotListener.Web.Api.IpatSyncController.SyncIpatDatabase(Int64 activityLogId) in C:\Coding\a453-admora\api\Web\Api\IpatSyncController.cs:line 35
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ExceptionContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Infrabel.ICT.Framework.Extended.AspNetCore.Middleware.LoggingMiddleware.Invoke(HttpContext context, IEnvironmentInfoService environmentInfoService)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-03-06 16:14:10.845 +01:00 [Information] HTTP "PUT" "/IpatSync" responded 500 in 4155.3996 ms
+DryIoc.ContainerException: Unable to resolve IpatIotListener.Infrastructure.Data.QueueLogDbContext as parameter "context"
+  in scoped IpatIotListener.Infrastructure.Data.QueueLogRepository: IpatIotListener.ApplicationCore.Repositories.IQueueLogRepository as parameter "queueLogRepository" FactoryId=63
+  in scoped IpatIotListener.Infrastructure.Services.QueueLogService: IpatIotListener.ApplicationCore.Services.IQueueLogService {DryIoc.IfUnresolved.ReturnDefaultIfNotRegistered} FactoryId=65 IsResolutionCall
+  from Container with Scope {no name}
+ with Rules with {TrackingDisposableTransients, SelectLastRegisteredFactory} and without {ThrowOnRegisteringDisposableTransient}
+ with FactorySelector=SelectLastRegisteredFactory
+ with Made={FactoryMethod=ConstructorWithResolvableArguments}
+Where no service registrations found
+  and no dynamic registrations found in 0 of Rules.DynamicServiceProviders
+  and nothing found in 0 of Rules.UnknownServiceResolvers
+   at DryIoc.Throw.It(Int32 error, Object arg0, Object arg1, Object arg2, Object arg3) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 10684
+   at DryIoc.Container.TryThrowUnableToResolve(Request request) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 939
+   at DryIoc.Container.DryIoc.IContainer.ResolveFactory(Request request) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 918
+   at DryIoc.ReflectionFactory.TryResolveParameterExpressions(ParameterInfo[] parameters, Func`2 parameterServiceInfoSelector, Request request, Int32& usedInputArgAndCustomValueCount) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 8454
+   at DryIoc.ReflectionFactory.CreateExpressionOrDefault(Request request) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 8384
+   at DryIoc.Factory.GetExpressionOrDefault(Request request) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 7869
+   at DryIoc.ReflectionFactory.TryResolveParameterExpressions(ParameterInfo[] parameters, Func`2 parameterServiceInfoSelector, Request request, Int32& usedInputArgAndCustomValueCount) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 8456
+   at DryIoc.ReflectionFactory.CreateExpressionOrDefault(Request request) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 8384
+   at DryIoc.Factory.GetExpressionOrDefault(Request request) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 7869
+   at DryIoc.Container.ResolveAndCacheFactoryDelegate(Type serviceType, IfUnresolved ifUnresolved) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 269
+   at DryIoc.Container.DryIoc.IResolver.Resolve(Type serviceType, IfUnresolved ifUnresolved) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 230
+   at DryIoc.Container.System.IServiceProvider.GetService(Type serviceType) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 224
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ExceptionContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Infrabel.ICT.Framework.Extended.AspNetCore.Middleware.LoggingMiddleware.Invoke(HttpContext context, IEnvironmentInfoService environmentInfoService)
+2020-03-06 16:14:11.055 +01:00 [Error] An unhandled exception has occurred while executing the request.
+DryIoc.ContainerException: Unable to resolve IpatIotListener.Infrastructure.Data.QueueLogDbContext as parameter "context"
+  in scoped IpatIotListener.Infrastructure.Data.QueueLogRepository: IpatIotListener.ApplicationCore.Repositories.IQueueLogRepository as parameter "queueLogRepository" FactoryId=63
+  in scoped IpatIotListener.Infrastructure.Services.QueueLogService: IpatIotListener.ApplicationCore.Services.IQueueLogService {DryIoc.IfUnresolved.ReturnDefaultIfNotRegistered} FactoryId=65 IsResolutionCall
+  from Container with Scope {no name}
+ with Rules with {TrackingDisposableTransients, SelectLastRegisteredFactory} and without {ThrowOnRegisteringDisposableTransient}
+ with FactorySelector=SelectLastRegisteredFactory
+ with Made={FactoryMethod=ConstructorWithResolvableArguments}
+Where no service registrations found
+  and no dynamic registrations found in 0 of Rules.DynamicServiceProviders
+  and nothing found in 0 of Rules.UnknownServiceResolvers
+   at DryIoc.Throw.It(Int32 error, Object arg0, Object arg1, Object arg2, Object arg3) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 10684
+   at DryIoc.Container.TryThrowUnableToResolve(Request request) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 939
+   at DryIoc.Container.DryIoc.IContainer.ResolveFactory(Request request) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 918
+   at DryIoc.ReflectionFactory.TryResolveParameterExpressions(ParameterInfo[] parameters, Func`2 parameterServiceInfoSelector, Request request, Int32& usedInputArgAndCustomValueCount) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 8454
+   at DryIoc.ReflectionFactory.CreateExpressionOrDefault(Request request) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 8384
+   at DryIoc.Factory.GetExpressionOrDefault(Request request) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 7869
+   at DryIoc.ReflectionFactory.TryResolveParameterExpressions(ParameterInfo[] parameters, Func`2 parameterServiceInfoSelector, Request request, Int32& usedInputArgAndCustomValueCount) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 8456
+   at DryIoc.ReflectionFactory.CreateExpressionOrDefault(Request request) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 8384
+   at DryIoc.Factory.GetExpressionOrDefault(Request request) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 7869
+   at DryIoc.Container.ResolveAndCacheFactoryDelegate(Type serviceType, IfUnresolved ifUnresolved) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 269
+   at DryIoc.Container.DryIoc.IResolver.Resolve(Type serviceType, IfUnresolved ifUnresolved) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 230
+   at DryIoc.Container.System.IServiceProvider.GetService(Type serviceType) in D:\Dev\DryIoc\src\DryIoc\Container.cs:line 224
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ExceptionContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Infrabel.ICT.Framework.Extended.AspNetCore.Middleware.LoggingMiddleware.Invoke(HttpContext context, IEnvironmentInfoService environmentInfoService)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-03-06 16:24:58.192 +01:00 [Information] HTTP "PUT" "/IpatSync" responded 200 in 45626.6152 ms
+2020-03-06 17:14:53.182 +01:00 [Information] HTTP "PUT" "/IpatSync" responded 200 in 13901.7184 ms
+2020-03-06 17:16:47.725 +01:00 [Information] HTTP "PUT" "/IpatSync" responded 200 in 17114.8675 ms

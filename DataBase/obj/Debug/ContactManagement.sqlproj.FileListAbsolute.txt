@@ -1,0 +1,9 @@
+C:\Temp\api\DataBase\bin\Debug\ContactManagement.dacpac
+C:\Temp\api\DataBase\bin\Debug\Database.dll
+C:\Temp\api\DataBase\bin\Debug\Database.pdb
+C:\Temp\api\DataBase\obj\Debug\Database.dll
+C:\Temp\api\DataBase\obj\Debug\Database.pdb
+C:\Temp\api\DataBase\obj\Debug\Model.xml
+C:\Temp\api\DataBase\obj\Debug\refactor.xml
+C:\Temp\api\DataBase\obj\Debug\postdeploy.sql
+C:\Temp\api\DataBase\obj\Debug\predeploy.sql

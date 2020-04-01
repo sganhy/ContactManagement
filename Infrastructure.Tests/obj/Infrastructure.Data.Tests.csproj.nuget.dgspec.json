@@ -1,0 +1,357 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Coding\\a1811-dems\\a1811-dems\\api\\Infrastructure.Data.Tests\\Infrastructure.Data.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Coding\\a1811-dems\\a1811-dems\\api\\Core.Domain\\Core.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Coding\\a1811-dems\\a1811-dems\\api\\Core.Domain\\Core.Domain.csproj",
+        "projectName": "Dems.Core.Domain",
+        "projectPath": "C:\\Coding\\a1811-dems\\a1811-dems\\api\\Core.Domain\\Core.Domain.csproj",
+        "packagesPath": "C:\\Users\\exn238\\.nuget\\packages\\",
+        "outputPath": "C:\\Coding\\a1811-dems\\a1811-dems\\api\\Core.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\exn238\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Coding\\a1811-dems\\a1811-dems\\api\\Infrabel.ICT.Framework\\Infrabel.ICT.Framework.csproj": {
+                "projectPath": "C:\\Coding\\a1811-dems\\a1811-dems\\api\\Infrabel.ICT.Framework\\Infrabel.ICT.Framework.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "DelegateDecompiler": {
+              "target": "Package",
+              "version": "[0.25.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Coding\\a1811-dems\\a1811-dems\\api\\Infrabel.ICT.Framework.EntityFramework\\Infrabel.ICT.Framework.Extended.EntityFramework.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Coding\\a1811-dems\\a1811-dems\\api\\Infrabel.ICT.Framework.EntityFramework\\Infrabel.ICT.Framework.Extended.EntityFramework.csproj",
+        "projectName": "Infrabel.ICT.Framework.Extended.EntityFramework",
+        "projectPath": "C:\\Coding\\a1811-dems\\a1811-dems\\api\\Infrabel.ICT.Framework.EntityFramework\\Infrabel.ICT.Framework.Extended.EntityFramework.csproj",
+        "packagesPath": "C:\\Users\\exn238\\.nuget\\packages\\",
+        "outputPath": "C:\\Coding\\a1811-dems\\a1811-dems\\api\\Infrabel.ICT.Framework.EntityFramework\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\exn238\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Coding\\a1811-dems\\a1811-dems\\api\\Infrabel.ICT.Framework\\Infrabel.ICT.Framework.csproj": {
+                "projectPath": "C:\\Coding\\a1811-dems\\a1811-dems\\api\\Infrabel.ICT.Framework\\Infrabel.ICT.Framework.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.1.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[2.1.11, )"
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Coding\\a1811-dems\\a1811-dems\\api\\Infrabel.ICT.Framework\\Infrabel.ICT.Framework.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Coding\\a1811-dems\\a1811-dems\\api\\Infrabel.ICT.Framework\\Infrabel.ICT.Framework.csproj",
+        "projectName": "Infrabel.ICT.Framework",
+        "projectPath": "C:\\Coding\\a1811-dems\\a1811-dems\\api\\Infrabel.ICT.Framework\\Infrabel.ICT.Framework.csproj",
+        "packagesPath": "C:\\Users\\exn238\\.nuget\\packages\\",
+        "outputPath": "C:\\Coding\\a1811-dems\\a1811-dems\\api\\Infrabel.ICT.Framework\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\exn238\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Coding\\a1811-dems\\a1811-dems\\api\\Infrastructure.Data.Tests\\Infrastructure.Data.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Coding\\a1811-dems\\a1811-dems\\api\\Infrastructure.Data.Tests\\Infrastructure.Data.Tests.csproj",
+        "projectName": "Dems.Infrastructure.Data.Tests",
+        "projectPath": "C:\\Coding\\a1811-dems\\a1811-dems\\api\\Infrastructure.Data.Tests\\Infrastructure.Data.Tests.csproj",
+        "packagesPath": "C:\\Users\\exn238\\.nuget\\packages\\",
+        "outputPath": "C:\\Coding\\a1811-dems\\a1811-dems\\api\\Infrastructure.Data.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\exn238\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Coding\\a1811-dems\\a1811-dems\\api\\Infrastructure.Data\\Infrastructure.csproj": {
+                "projectPath": "C:\\Coding\\a1811-dems\\a1811-dems\\api\\Infrastructure.Data\\Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "AutoFixture.Xunit2": {
+              "target": "Package",
+              "version": "[4.8.0, )"
+            },
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[5.6.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.1.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[2.1.11, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.1.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.10.1, )"
+            },
+            "Moq.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Coding\\a1811-dems\\a1811-dems\\api\\Infrastructure.Data\\Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Coding\\a1811-dems\\a1811-dems\\api\\Infrastructure.Data\\Infrastructure.csproj",
+        "projectName": "Dems.Infrastructure",
+        "projectPath": "C:\\Coding\\a1811-dems\\a1811-dems\\api\\Infrastructure.Data\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\exn238\\.nuget\\packages\\",
+        "outputPath": "C:\\Coding\\a1811-dems\\a1811-dems\\api\\Infrastructure.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\exn238\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Coding\\a1811-dems\\a1811-dems\\api\\Core.Domain\\Core.Domain.csproj": {
+                "projectPath": "C:\\Coding\\a1811-dems\\a1811-dems\\api\\Core.Domain\\Core.Domain.csproj"
+              },
+              "C:\\Coding\\a1811-dems\\a1811-dems\\api\\Infrabel.ICT.Framework.EntityFramework\\Infrabel.ICT.Framework.Extended.EntityFramework.csproj": {
+                "projectPath": "C:\\Coding\\a1811-dems\\a1811-dems\\api\\Infrabel.ICT.Framework.EntityFramework\\Infrabel.ICT.Framework.Extended.EntityFramework.csproj"
+              },
+              "C:\\Coding\\a1811-dems\\a1811-dems\\api\\Infrabel.ICT.Framework\\Infrabel.ICT.Framework.csproj": {
+                "projectPath": "C:\\Coding\\a1811-dems\\a1811-dems\\api\\Infrabel.ICT.Framework\\Infrabel.ICT.Framework.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Devart.Data.Oracle.EFCore": {
+              "target": "Package",
+              "version": "[9.6.646, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.1.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[2.1.11, )"
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

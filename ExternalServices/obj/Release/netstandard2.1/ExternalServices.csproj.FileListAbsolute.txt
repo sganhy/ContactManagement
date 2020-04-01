@@ -1,0 +1,8 @@
+C:\Coding\a245-fleetmanager\api\ExternalServices\bin\Release\netstandard2.1\FleetManager.ExternalServices.deps.json
+C:\Coding\a245-fleetmanager\api\ExternalServices\bin\Release\netstandard2.1\FleetManager.ExternalServices.dll
+C:\Coding\a245-fleetmanager\api\ExternalServices\bin\Release\netstandard2.1\FleetManager.ExternalServices.pdb
+C:\Coding\a245-fleetmanager\api\ExternalServices\obj\Release\netstandard2.1\ExternalServices.AssemblyInfoInputs.cache
+C:\Coding\a245-fleetmanager\api\ExternalServices\obj\Release\netstandard2.1\ExternalServices.AssemblyInfo.cs
+C:\Coding\a245-fleetmanager\api\ExternalServices\obj\Release\netstandard2.1\FleetManager.ExternalServices.dll
+C:\Coding\a245-fleetmanager\api\ExternalServices\obj\Release\netstandard2.1\FleetManager.ExternalServices.pdb
+C:\Coding\a245-fleetmanager\api\ExternalServices\obj\Release\netstandard2.1\ExternalServices.csprojAssemblyReference.cache

@@ -1,0 +1,16 @@
+C:\Coding\a1811-dems\a1811-dems\api\ApplicationCore.Tests\bin\Debug\netcoreapp2.1\Dems.Core.Domain.Tests.deps.json
+C:\Coding\a1811-dems\a1811-dems\api\ApplicationCore.Tests\bin\Debug\netcoreapp2.1\Dems.Core.Domain.Tests.runtimeconfig.json
+C:\Coding\a1811-dems\a1811-dems\api\ApplicationCore.Tests\bin\Debug\netcoreapp2.1\Dems.Core.Domain.Tests.runtimeconfig.dev.json
+C:\Coding\a1811-dems\a1811-dems\api\ApplicationCore.Tests\bin\Debug\netcoreapp2.1\Dems.Core.Domain.Tests.dll
+C:\Coding\a1811-dems\a1811-dems\api\ApplicationCore.Tests\bin\Debug\netcoreapp2.1\Dems.Core.Domain.Tests.pdb
+C:\Coding\a1811-dems\a1811-dems\api\ApplicationCore.Tests\obj\Debug\netcoreapp2.1\ApplicationCore.Tests.csproj.CoreCompileInputs.cache
+C:\Coding\a1811-dems\a1811-dems\api\ApplicationCore.Tests\obj\Debug\netcoreapp2.1\ApplicationCore.Tests.AssemblyInfoInputs.cache
+C:\Coding\a1811-dems\a1811-dems\api\ApplicationCore.Tests\obj\Debug\netcoreapp2.1\ApplicationCore.Tests.AssemblyInfo.cs
+C:\Coding\a1811-dems\a1811-dems\api\ApplicationCore.Tests\obj\Debug\netcoreapp2.1\Dems.Core.Domain.Tests.dll
+C:\Coding\a1811-dems\a1811-dems\api\ApplicationCore.Tests\obj\Debug\netcoreapp2.1\Dems.Core.Domain.Tests.pdb
+C:\Coding\a1811-dems\a1811-dems\api\ApplicationCore.Tests\obj\Debug\netcoreapp2.1\ApplicationCore.Tests.csprojAssemblyReference.cache
+C:\Coding\a1811-dems\a1811-dems\api\ApplicationCore.Tests\bin\Debug\netcoreapp2.1\Dems.ApplicationCore.dll
+C:\Coding\a1811-dems\a1811-dems\api\ApplicationCore.Tests\bin\Debug\netcoreapp2.1\Infrabel.ICT.Framework.dll
+C:\Coding\a1811-dems\a1811-dems\api\ApplicationCore.Tests\bin\Debug\netcoreapp2.1\Dems.ApplicationCore.pdb
+C:\Coding\a1811-dems\a1811-dems\api\ApplicationCore.Tests\bin\Debug\netcoreapp2.1\Infrabel.ICT.Framework.pdb
+C:\Coding\a1811-dems\a1811-dems\api\ApplicationCore.Tests\obj\Debug\netcoreapp2.1\ApplicationCore.Tests.csproj.CopyComplete

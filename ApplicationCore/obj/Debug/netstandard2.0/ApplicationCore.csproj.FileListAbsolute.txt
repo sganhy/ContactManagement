@@ -1,0 +1,8 @@
+C:\Coding\a453-admora\api\ApplicationCore\bin\Debug\netstandard2.0\IpatIotListener.ApplicationCore.deps.json
+C:\Coding\a453-admora\api\ApplicationCore\bin\Debug\netstandard2.0\IpatIotListener.ApplicationCore.dll
+C:\Coding\a453-admora\api\ApplicationCore\bin\Debug\netstandard2.0\IpatIotListener.ApplicationCore.pdb
+C:\Coding\a453-admora\api\ApplicationCore\obj\Debug\netstandard2.0\ApplicationCore.AssemblyInfoInputs.cache
+C:\Coding\a453-admora\api\ApplicationCore\obj\Debug\netstandard2.0\ApplicationCore.AssemblyInfo.cs
+C:\Coding\a453-admora\api\ApplicationCore\obj\Debug\netstandard2.0\IpatIotListener.ApplicationCore.dll
+C:\Coding\a453-admora\api\ApplicationCore\obj\Debug\netstandard2.0\IpatIotListener.ApplicationCore.pdb
+C:\Coding\a453-admora\api\ApplicationCore\obj\Debug\netstandard2.0\ApplicationCore.csprojAssemblyReference.cache
