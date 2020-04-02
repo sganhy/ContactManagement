@@ -31,3 +31,14 @@ C:\Temp\api\Infrastructure\obj\Debug\netstandard2.1\Infrastructure.AssemblyInfo.
 C:\Temp\api\Infrastructure\obj\Debug\netstandard2.1\Infrastructure.csproj.CopyComplete
 C:\Temp\api\Infrastructure\obj\Debug\netstandard2.1\ContactManagement.Infrastructure.dll
 C:\Temp\api\Infrastructure\obj\Debug\netstandard2.1\ContactManagement.Infrastructure.pdb
+C:\Temp\git\ContactManagement\Infrastructure\bin\Debug\netstandard2.1\ContactManagement.Infrastructure.deps.json
+C:\Temp\git\ContactManagement\Infrastructure\bin\Debug\netstandard2.1\ContactManagement.Infrastructure.dll
+C:\Temp\git\ContactManagement\Infrastructure\bin\Debug\netstandard2.1\ContactManagement.Infrastructure.pdb
+C:\Temp\git\ContactManagement\Infrastructure\bin\Debug\netstandard2.1\ContactManagement.ApplicationCore.dll
+C:\Temp\git\ContactManagement\Infrastructure\bin\Debug\netstandard2.1\ContactManagement.ApplicationCore.pdb
+C:\Temp\git\ContactManagement\Infrastructure\obj\Debug\netstandard2.1\Infrastructure.csprojAssemblyReference.cache
+C:\Temp\git\ContactManagement\Infrastructure\obj\Debug\netstandard2.1\Infrastructure.AssemblyInfoInputs.cache
+C:\Temp\git\ContactManagement\Infrastructure\obj\Debug\netstandard2.1\Infrastructure.AssemblyInfo.cs
+C:\Temp\git\ContactManagement\Infrastructure\obj\Debug\netstandard2.1\Infrastructure.csproj.CopyComplete
+C:\Temp\git\ContactManagement\Infrastructure\obj\Debug\netstandard2.1\ContactManagement.Infrastructure.dll
+C:\Temp\git\ContactManagement\Infrastructure\obj\Debug\netstandard2.1\ContactManagement.Infrastructure.pdb

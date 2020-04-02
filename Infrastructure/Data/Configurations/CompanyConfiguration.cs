@@ -15,6 +15,8 @@ namespace ContactManagement.Infrastructure.Data.Configurations
         public void Configure(EntityTypeBuilder<Company> builder)
         {
             builder.ToTable("Company");
+            builder.Property(x => x.Id).HasColumnName("Id");
+            builder.Property(x => x.Id).ValueGeneratedOnAdd();
             builder.HasKey(p => p.Id);
             builder.Property(x => x.Name).HasColumnName("Name").HasMaxLength(50).IsRequired();
             builder.Property(x => x.Vat).HasColumnName("Vat").HasMaxLength(12).IsRequired();

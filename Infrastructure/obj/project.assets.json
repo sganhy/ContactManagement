@@ -6869,11 +6869,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Temp\\api\\Infrastructure\\Infrastructure.csproj",
+      "projectUniqueName": "C:\\Temp\\git\\ContactManagement\\Infrastructure\\Infrastructure.csproj",
       "projectName": "ContactManagement.Infrastructure",
-      "projectPath": "C:\\Temp\\api\\Infrastructure\\Infrastructure.csproj",
+      "projectPath": "C:\\Temp\\git\\ContactManagement\\Infrastructure\\Infrastructure.csproj",
       "packagesPath": "C:\\Users\\Hal\\.nuget\\packages\\",
-      "outputPath": "C:\\Temp\\api\\Infrastructure\\obj\\",
+      "outputPath": "C:\\Temp\\git\\ContactManagement\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Hal\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6889,8 +6889,8 @@
       "frameworks": {
         "netstandard2.1": {
           "projectReferences": {
-            "C:\\Temp\\api\\ApplicationCore\\ApplicationCore.csproj": {
-              "projectPath": "C:\\Temp\\api\\ApplicationCore\\ApplicationCore.csproj"
+            "C:\\Temp\\git\\ContactManagement\\ApplicationCore\\ApplicationCore.csproj": {
+              "projectPath": "C:\\Temp\\git\\ContactManagement\\ApplicationCore\\ApplicationCore.csproj"
             }
           }
         }

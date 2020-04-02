@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Temp\\api\\Web\\Web.csproj": {}
+    "C:\\Temp\\git\\ContactManagement\\Web\\Web.csproj": {}
   },
   "projects": {
-    "C:\\Temp\\api\\ApplicationCore\\ApplicationCore.csproj": {
+    "C:\\Temp\\git\\ContactManagement\\ApplicationCore\\ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Temp\\api\\ApplicationCore\\ApplicationCore.csproj",
+        "projectUniqueName": "C:\\Temp\\git\\ContactManagement\\ApplicationCore\\ApplicationCore.csproj",
         "projectName": "ContactManagement.ApplicationCore",
-        "projectPath": "C:\\Temp\\api\\ApplicationCore\\ApplicationCore.csproj",
+        "projectPath": "C:\\Temp\\git\\ContactManagement\\ApplicationCore\\ApplicationCore.csproj",
         "packagesPath": "C:\\Users\\Hal\\.nuget\\packages\\",
-        "outputPath": "C:\\Temp\\api\\ApplicationCore\\obj\\",
+        "outputPath": "C:\\Temp\\git\\ContactManagement\\ApplicationCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Hal\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -56,14 +56,14 @@
         }
       }
     },
-    "C:\\Temp\\api\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Temp\\git\\ContactManagement\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Temp\\api\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Temp\\git\\ContactManagement\\Infrastructure\\Infrastructure.csproj",
         "projectName": "ContactManagement.Infrastructure",
-        "projectPath": "C:\\Temp\\api\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "C:\\Temp\\git\\ContactManagement\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Hal\\.nuget\\packages\\",
-        "outputPath": "C:\\Temp\\api\\Infrastructure\\obj\\",
+        "outputPath": "C:\\Temp\\git\\ContactManagement\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Hal\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -79,8 +79,8 @@
         "frameworks": {
           "netstandard2.1": {
             "projectReferences": {
-              "C:\\Temp\\api\\ApplicationCore\\ApplicationCore.csproj": {
-                "projectPath": "C:\\Temp\\api\\ApplicationCore\\ApplicationCore.csproj"
+              "C:\\Temp\\git\\ContactManagement\\ApplicationCore\\ApplicationCore.csproj": {
+                "projectPath": "C:\\Temp\\git\\ContactManagement\\ApplicationCore\\ApplicationCore.csproj"
               }
             }
           }
@@ -130,14 +130,14 @@
         }
       }
     },
-    "C:\\Temp\\api\\Web\\Web.csproj": {
+    "C:\\Temp\\git\\ContactManagement\\Web\\Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Temp\\api\\Web\\Web.csproj",
+        "projectUniqueName": "C:\\Temp\\git\\ContactManagement\\Web\\Web.csproj",
         "projectName": "ContactManagement.Web",
-        "projectPath": "C:\\Temp\\api\\Web\\Web.csproj",
+        "projectPath": "C:\\Temp\\git\\ContactManagement\\Web\\Web.csproj",
         "packagesPath": "C:\\Users\\Hal\\.nuget\\packages\\",
-        "outputPath": "C:\\Temp\\api\\Web\\obj\\",
+        "outputPath": "C:\\Temp\\git\\ContactManagement\\Web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Hal\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -153,11 +153,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Temp\\api\\ApplicationCore\\ApplicationCore.csproj": {
-                "projectPath": "C:\\Temp\\api\\ApplicationCore\\ApplicationCore.csproj"
+              "C:\\Temp\\git\\ContactManagement\\ApplicationCore\\ApplicationCore.csproj": {
+                "projectPath": "C:\\Temp\\git\\ContactManagement\\ApplicationCore\\ApplicationCore.csproj"
               },
-              "C:\\Temp\\api\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Temp\\api\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Temp\\git\\ContactManagement\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Temp\\git\\ContactManagement\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }

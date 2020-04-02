@@ -6491,11 +6491,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Temp\\api\\Web\\Web.csproj",
+      "projectUniqueName": "C:\\Temp\\git\\ContactManagement\\Web\\Web.csproj",
       "projectName": "ContactManagement.Web",
-      "projectPath": "C:\\Temp\\api\\Web\\Web.csproj",
+      "projectPath": "C:\\Temp\\git\\ContactManagement\\Web\\Web.csproj",
       "packagesPath": "C:\\Users\\Hal\\.nuget\\packages\\",
-      "outputPath": "C:\\Temp\\api\\Web\\obj\\",
+      "outputPath": "C:\\Temp\\git\\ContactManagement\\Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Hal\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6511,11 +6511,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Temp\\api\\ApplicationCore\\ApplicationCore.csproj": {
-              "projectPath": "C:\\Temp\\api\\ApplicationCore\\ApplicationCore.csproj"
+            "C:\\Temp\\git\\ContactManagement\\ApplicationCore\\ApplicationCore.csproj": {
+              "projectPath": "C:\\Temp\\git\\ContactManagement\\ApplicationCore\\ApplicationCore.csproj"
             },
-            "C:\\Temp\\api\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "C:\\Temp\\api\\Infrastructure\\Infrastructure.csproj"
+            "C:\\Temp\\git\\ContactManagement\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Temp\\git\\ContactManagement\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }

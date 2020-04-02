@@ -46,7 +46,8 @@ namespace ContactManagement.Web.Api
         [ProducesResponseType(404)]
         public async Task<IActionResult> DeleteContactById([FromRoute] long contactId)
         {
-            await _contactService.DeleteByIdAsync(contactId);
+            // TODO --> not working at all
+            //await _contactService.DeleteByIdAsync(contactId);
             return Ok();
         }
 
@@ -58,7 +59,7 @@ namespace ContactManagement.Web.Api
         [HttpGet("{contactId:int}", Name = nameof(GetContactById))]
         [ProducesResponseType(typeof(ContactViewModel), 200)]
         [ProducesResponseType(400)]
-        public async Task<IActionResult> GetContactById([FromRoute] long contactId) => Ok(await _contactService.GetByIdAsync(contactId));
+        public async Task<IActionResult> GetContactById([FromRoute] long contactId) => Ok(_mapper.Map<ContactViewModel>(await _contactService.GetByIdAsync(contactId)));
 
     }
 }

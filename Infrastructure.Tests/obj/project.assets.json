@@ -8697,11 +8697,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Temp\\api\\Infrastructure.Tests\\Infrastructure.Tests.csproj",
+      "projectUniqueName": "C:\\Temp\\git\\ContactManagement\\Infrastructure.Tests\\Infrastructure.Tests.csproj",
       "projectName": "FleetManager.Infrastructure.Tests",
-      "projectPath": "C:\\Temp\\api\\Infrastructure.Tests\\Infrastructure.Tests.csproj",
+      "projectPath": "C:\\Temp\\git\\ContactManagement\\Infrastructure.Tests\\Infrastructure.Tests.csproj",
       "packagesPath": "C:\\Users\\Hal\\.nuget\\packages\\",
-      "outputPath": "C:\\Temp\\api\\Infrastructure.Tests\\obj\\",
+      "outputPath": "C:\\Temp\\git\\ContactManagement\\Infrastructure.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Hal\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8717,11 +8717,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Temp\\api\\ApplicationCore\\ApplicationCore.csproj": {
-              "projectPath": "C:\\Temp\\api\\ApplicationCore\\ApplicationCore.csproj"
+            "C:\\Temp\\git\\ContactManagement\\ApplicationCore\\ApplicationCore.csproj": {
+              "projectPath": "C:\\Temp\\git\\ContactManagement\\ApplicationCore\\ApplicationCore.csproj"
             },
-            "C:\\Temp\\api\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "C:\\Temp\\api\\Infrastructure\\Infrastructure.csproj"
+            "C:\\Temp\\git\\ContactManagement\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Temp\\git\\ContactManagement\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Temp\\api\\ApplicationCore\\ApplicationCore.csproj": {}
+    "C:\\Temp\\git\\ContactManagement\\ApplicationCore\\ApplicationCore.csproj": {}
   },
   "projects": {
-    "C:\\Temp\\api\\ApplicationCore\\ApplicationCore.csproj": {
+    "C:\\Temp\\git\\ContactManagement\\ApplicationCore\\ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Temp\\api\\ApplicationCore\\ApplicationCore.csproj",
+        "projectUniqueName": "C:\\Temp\\git\\ContactManagement\\ApplicationCore\\ApplicationCore.csproj",
         "projectName": "ContactManagement.ApplicationCore",
-        "projectPath": "C:\\Temp\\api\\ApplicationCore\\ApplicationCore.csproj",
+        "projectPath": "C:\\Temp\\git\\ContactManagement\\ApplicationCore\\ApplicationCore.csproj",
         "packagesPath": "C:\\Users\\Hal\\.nuget\\packages\\",
-        "outputPath": "C:\\Temp\\api\\ApplicationCore\\obj\\",
+        "outputPath": "C:\\Temp\\git\\ContactManagement\\ApplicationCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Hal\\AppData\\Roaming\\NuGet\\NuGet.Config",
