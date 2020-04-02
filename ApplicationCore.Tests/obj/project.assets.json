@@ -6041,11 +6041,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Temp\\api\\ApplicationCore.Tests\\ApplicationCore.Tests.csproj",
+      "projectUniqueName": "C:\\Temp\\git\\ContactManagement\\ApplicationCore.Tests\\ApplicationCore.Tests.csproj",
       "projectName": "FleetManager.Core.Domain.Tests",
-      "projectPath": "C:\\Temp\\api\\ApplicationCore.Tests\\ApplicationCore.Tests.csproj",
+      "projectPath": "C:\\Temp\\git\\ContactManagement\\ApplicationCore.Tests\\ApplicationCore.Tests.csproj",
       "packagesPath": "C:\\Users\\Hal\\.nuget\\packages\\",
-      "outputPath": "C:\\Temp\\api\\ApplicationCore.Tests\\obj\\",
+      "outputPath": "C:\\Temp\\git\\ContactManagement\\ApplicationCore.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Hal\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -2,7 +2,7 @@
 {
     public class EntityBase : IEntityBase
     {
-        public long Id { get; protected set; }
+        public long Id { get; set; }
 
     }
 }

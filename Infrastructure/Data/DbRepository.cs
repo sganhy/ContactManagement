@@ -1,8 +1,11 @@
 ﻿using ContactManagement.ApplicationCore.Entities;
 using ContactManagement.ApplicationCore.Repositories;
 using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
+using System.Linq;
+using System.Linq.Expressions;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -19,6 +22,9 @@ namespace ContactManagement.Infrastructure.Data
             DbContext = context;
             _dbSet = context.Set<T>();
         }
+
+        public List<string> Includes { get; private set; }
+
         public void Add(T entity)
         {
             _dbSet.Add(entity);
@@ -31,6 +37,11 @@ namespace ContactManagement.Infrastructure.Data
 
         public async ValueTask<T> FindByIdAsync(long id, CancellationToken cancellationToken = default)
         {
+            // manage include
+            if (Includes != null) { 
+                var result = ApplySpecification();
+                return result.FirstOrDefault();
+            }
             return await _dbSet.FindAsync(id);
         }
 
@@ -48,6 +59,22 @@ namespace ContactManagement.Infrastructure.Data
         public void Update(T entity)
         {
             DbContext.Entry(entity).State = EntityState.Modified;
+        }
+
+        public void AddInclude(string include)
+        {
+            if (Includes == null) Includes = new List<string>();
+            Includes.Add(include);
+        }
+
+        private IQueryable<T> ApplySpecification()
+        {
+            var query = DbContext.Set<T>().AsQueryable();
+            if (Includes != null)
+            {
+                query = Includes.Aggregate(query, (current, include) => current.Include(include));
+            }
+            return query;
         }
     }
 }

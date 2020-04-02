@@ -19,3 +19,10 @@ C:\Temp\api\ApplicationCore\obj\Debug\netstandard2.1\ApplicationCore.AssemblyInf
 C:\Temp\api\ApplicationCore\obj\Debug\netstandard2.1\ApplicationCore.AssemblyInfo.cs
 C:\Temp\api\ApplicationCore\obj\Debug\netstandard2.1\ContactManagement.ApplicationCore.dll
 C:\Temp\api\ApplicationCore\obj\Debug\netstandard2.1\ContactManagement.ApplicationCore.pdb
+C:\Temp\git\ContactManagement\ApplicationCore\bin\Debug\netstandard2.1\ContactManagement.ApplicationCore.deps.json
+C:\Temp\git\ContactManagement\ApplicationCore\bin\Debug\netstandard2.1\ContactManagement.ApplicationCore.dll
+C:\Temp\git\ContactManagement\ApplicationCore\bin\Debug\netstandard2.1\ContactManagement.ApplicationCore.pdb
+C:\Temp\git\ContactManagement\ApplicationCore\obj\Debug\netstandard2.1\ApplicationCore.AssemblyInfoInputs.cache
+C:\Temp\git\ContactManagement\ApplicationCore\obj\Debug\netstandard2.1\ApplicationCore.AssemblyInfo.cs
+C:\Temp\git\ContactManagement\ApplicationCore\obj\Debug\netstandard2.1\ContactManagement.ApplicationCore.dll
+C:\Temp\git\ContactManagement\ApplicationCore\obj\Debug\netstandard2.1\ContactManagement.ApplicationCore.pdb

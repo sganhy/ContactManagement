@@ -7,3 +7,12 @@ C:\Temp\api\DataBase\obj\Debug\Model.xml
 C:\Temp\api\DataBase\obj\Debug\refactor.xml
 C:\Temp\api\DataBase\obj\Debug\postdeploy.sql
 C:\Temp\api\DataBase\obj\Debug\predeploy.sql
+C:\Temp\git\ContactManagement\DataBase\bin\Debug\ContactManagement.dacpac
+C:\Temp\git\ContactManagement\DataBase\bin\Debug\Database.dll
+C:\Temp\git\ContactManagement\DataBase\bin\Debug\Database.pdb
+C:\Temp\git\ContactManagement\DataBase\obj\Debug\Model.xml
+C:\Temp\git\ContactManagement\DataBase\obj\Debug\refactor.xml
+C:\Temp\git\ContactManagement\DataBase\obj\Debug\postdeploy.sql
+C:\Temp\git\ContactManagement\DataBase\obj\Debug\predeploy.sql
+C:\Temp\git\ContactManagement\DataBase\obj\Debug\Database.dll
+C:\Temp\git\ContactManagement\DataBase\obj\Debug\Database.pdb
